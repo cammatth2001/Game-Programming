@@ -495,7 +495,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 527902526}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146174834}
+        m_MethodName: UserSelectFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &527902526
@@ -1219,7 +1230,7 @@ RectTransform:
   m_AnchorMin: {x: 0.47575894, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -258.16275, y: -115.7}
-  m_SizeDelta: {x: 131.3255, y: 83}
+  m_SizeDelta: {x: 143, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1475607044
 GameObject:
@@ -1622,7 +1633,7 @@ GameObject:
   - component: {fileID: 1971741009}
   - component: {fileID: 1971741008}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Question
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1845,7 +1856,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1978543890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146174834}
+        m_MethodName: UserSelectTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1978543890
@@ -2042,6 +2064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2146174835}
   - component: {fileID: 2146174834}
+  - component: {fileID: 2146174836}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2060,6 +2083,129 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5faa663f45cbb644ac51fb432d6435b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questions:
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  - question: 
+    answer: 
+    option1: 
+    option2: 
+    option3: 
+    option4: 
+  questionText: {fileID: 0}
+  timeBetweenQuestions: 1
 --- !u!4 &2146174835
 Transform:
   m_ObjectHideFlags: 0
@@ -2073,3 +2219,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2146174836
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146174833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1f797c590b7046458e0503fd0104d06, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

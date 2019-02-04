@@ -104,7 +104,8 @@
     <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
-    <Compile Include="Assets\Questions.cs" />
+    <Compile Include="Assets\Question.cs" />
+    <None Include="Assets\Resources\GameQuestions.xml" />
     <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/camma/Documents/GitHub/Game-Programming/Quiz-Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
