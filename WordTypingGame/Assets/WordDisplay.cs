@@ -23,10 +23,15 @@ public class WordDisplay : MonoBehaviour {
 	{
 		Destroy(gameObject);
 	}
+    void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 
-	private void Update()
+    private void Update()
 	{
 		transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+
 	}
 
 }

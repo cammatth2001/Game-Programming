@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CountDown.cs" />
+    <Compile Include="Assets\GameOver.cs" />
+    <Compile Include="Assets\StartGame.cs" />
     <Compile Include="Assets\Word.cs" />
     <Compile Include="Assets\WordDisplay.cs" />
     <Compile Include="Assets\WordGenerator.cs" />
