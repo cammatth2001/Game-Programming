@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c91e118dff384a74ba0471491c9d51ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 10
+  timeLeft: 60
   countdown: {fileID: 77917309}
   Restart: {fileID: 1524099013}
 --- !u!1 &1524099011
