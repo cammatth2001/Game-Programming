@@ -60,9 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\ChaseUser.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\LowMan\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\MapMovement.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/camma/Documents/GitHub/Game-Programming/MeshGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
