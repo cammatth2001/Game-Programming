@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1500
     height: 878
-  m_MinSize: {x: 404, y: 298}
-  m_MaxSize: {x: 8004, y: 8048}
+  m_MinSize: {x: 402, y: 274}
+  m_MaxSize: {x: 8002, y: 8024}
   vertical: 0
-  controlID: 8404
+  controlID: 182
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,10 +125,10 @@ MonoBehaviour:
     y: 0
     width: 1500
     height: 878
-  m_MinSize: {x: 404, y: 298}
-  m_MaxSize: {x: 8004, y: 8048}
+  m_MinSize: {x: 402, y: 274}
+  m_MaxSize: {x: 8002, y: 8024}
   vertical: 1
-  controlID: 8405
+  controlID: 183
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,10 +150,10 @@ MonoBehaviour:
     y: 0
     width: 1500
     height: 490
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 402, y: 224}
+  m_MaxSize: {x: 8002, y: 4024}
   vertical: 0
-  controlID: 8376
+  controlID: 161
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,18 +211,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 68b4ffff00e4ffff283e0000
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Main Camera
-        m_OriginalName: Main Camera
+        m_Name: MiniMapCam
+        m_OriginalName: MiniMapCam
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 15968
+        m_UserData: 4002
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -294,9 +294,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.207288, y: 3.1645927, z: 7.0197077}
+    m_Target: {x: -33.95, y: 20, z: 8.46}
     speed: 2
-    m_Value: {x: -6.207288, y: 3.1645927, z: 7.0197077}
+    m_Value: {x: -33.95, y: 20, z: 8.46}
   m_RenderMode: 2
   m_CameraMode:
     drawMode: 2
@@ -324,13 +324,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.013899817, y: -0.9678941, z: 0.24488729, w: 0.054937944}
+    m_Target: {x: 0.0035054062, y: -0.96400356, z: 0.26556155, w: 0.012725058}
     speed: 2
-    m_Value: {x: 0.013899817, y: -0.9678941, z: 0.24488729, w: 0.054937944}
+    m_Value: {x: 0.0035054062, y: -0.96400356, z: 0.26556155, w: 0.012725058}
   m_Size:
-    m_Target: 60.547672
+    m_Target: 22
     speed: 2
-    m_Value: 60.547672
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -387,8 +387,8 @@ MonoBehaviour:
     y: 490
     width: 1500
     height: 388
-  m_MinSize: {x: 275, y: 74}
-  m_MaxSize: {x: 4000, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 11}
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 263a0000
     m_LastClickedID: 14886
-    m_ExpandedIDs: 0000000074390000ba390000d4390000ec3a0000c03d00005440000056400000584000005a4000005c4000005e40000060400000624000006440000066400000
+    m_ExpandedIDs: 00000000060a00004a0a0000640a0000c80b0000162f0000182f00001a2f00001c2f00001e2f0000202f0000222f0000242f0000262f0000282f00002a2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000074390000ba390000d4390000ec3a0000c03d00005440000056400000584000005a4000005c4000005e40000060400000624000006440000066400000
+    m_ExpandedIDs: 00000000060a00004a0a0000640a0000c80b0000162f0000182f00001a2f00001c2f00001e2f0000202f0000222f0000242f0000262f0000282f00002a2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
