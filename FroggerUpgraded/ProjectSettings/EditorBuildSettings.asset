@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/MainMenu.unity
     guid: 1c506143a53f94c4bb8809f946215fd0
   - enabled: 1
-    path: Assets/MainGame.unity
-    guid: 00848c65fd3840a459e6af7240a0ebf8
+    path: Assets/Introduction.unity
+    guid: 49872093718a22449a7f8bd1bd5c86d7
+  - enabled: 1
+    path: Assets/EasyLevel.unity
+    guid: ff04bd4f4a0c10a43b6ad3ebeceaa0cc
+  - enabled: 1
+    path: Assets/MediumLevel.unity
+    guid: 239dd4d09e998a24dbe2064a13f18b39
+  - enabled: 1
+    path: Assets/HardLevel.unity
+    guid: bcf8cad516c285549a4fcf58a8c4e627
   m_configObjects: {}

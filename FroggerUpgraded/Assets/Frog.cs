@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class Frog : MonoBehaviour {
 
 	public Rigidbody2D rb;
-    public Text lostText;
-    public float reloadDelay = 3f;
-    public float nextGame = 0f;
+    
 
+    
+
+    
     void Update () {
 
 		if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -20,25 +21,14 @@ public class Frog : MonoBehaviour {
 			rb.MovePosition(rb.position + Vector2.up);
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 			rb.MovePosition(rb.position + Vector2.down);
-
 	}
 
-	void OnTriggerEnter2D (Collider2D col)
-	{
-		if (col.tag == "Car")
-		{
-			lostText.text = "WE LOST!";
-			Score.CurrentScore = 0;
-                       
-		}
-        StartCoroutine(WaitForSceneLoad());
-    }
-
-    
-    private IEnumerator WaitForSceneLoad()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(0);
+        if (col.tag == "Car")
+        {
+            GameControl.health -= 1;
+        }
 
     }
    
