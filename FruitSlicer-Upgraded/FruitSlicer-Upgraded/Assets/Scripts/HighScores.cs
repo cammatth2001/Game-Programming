@@ -7,50 +7,53 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HighScores : MonoBehaviour
-{ 
-    public Text HighScoresText; // text field showing high scores
+{
+    public Text HighScoresText;
+    public int topScores = 10;
 
-    // Start is called before the first frame update
+
+   
     void Start()
     {
-        // Debug.Log(ScoreKeeper.newScore); //shows proper transfer of newscore
         WriteScores();
     }
 
     void WriteScores()
     {
-        string path = "Assets/scores.txt"; // file with the high scores. Initially empty.
-        string[] fields; // fields in each line
-        string playerName; // first field in the fields array
-        int score; // second field in the fields array, need to convert to int with Convert.ToInt32()
-        bool scoreRecorded = false; // we have not written new score to file yet
+        string path = "Assets/scores.txt"; 
+        string[] lines; 
+        string playerName; 
+        double score; 
+        bool scoreWritten = false;
 
-        string[] playerScores = File.ReadAllLines(path); // array of lines in file with name and score
+        string[] playerScores = File.ReadAllLines(path); 
         Debug.Log(playerScores);
 
-        
 
-        StreamWriter writer = new StreamWriter(path); // open the file for writing
+
+        StreamWriter writer = new StreamWriter(path); 
 
         foreach (string playerScore in playerScores)
         {
-
-            fields = playerScore.Split(','); // split fields at comma and read into fields array
-            playerName = fields[0]; // first field is name
-            score = Convert.ToInt32(fields[1]); // second field is score
-            if (score < Score.CurrentScore && scoreRecorded == false)
+            
+            lines = playerScore.Split(','); 
+            playerName = lines[0]; 
+            score = Convert.ToInt32(lines[1]); 
+            if (score < Score.CurrentScore && scoreWritten == false)
             {
-                writer.Write(PlayerName.playerName + "," + Score.CurrentScore + "\n"); // before we write the existing score, write the new high score
-                HighScoresText.text += PlayerName.playerName + " : " + score.ToString() + "\n"; // also show to user
-                scoreRecorded = true;
+                writer.Write(PlayerName.playerName + "," + Score.CurrentScore + "\n"); 
+                HighScoresText.text += PlayerName.playerName + " : " + Score.CurrentScore.ToString() + "\n";
+                scoreWritten = true;
                 Debug.Log(PlayerName.playerName + " : " + score.ToString() + "\n");
             }
-            writer.Write(playerScore + "\n"); // either way, still write the existing score
-            HighScoresText.text += playerName + " : " + score.ToString() + "\n"; // also show to user
+            writer.Write(playerScore + "\n"); 
+            HighScoresText.text += playerName + " : " + score.ToString() + "\n"; 
             Debug.Log(playerName + " : " + score.ToString() + "\n");
         }
 
-        writer.Close(); // so we don't lock it for next round
+        writer.Close(); 
+
+
 
         AssetDatabase.ImportAsset(path);
         TextAsset asset = (TextAsset)Resources.Load("scores");

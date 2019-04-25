@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Goal : MonoBehaviour
 {
     
-    public int timeLeft = 10;
+    static public int timeLeft;
     public Text countdown;
    
     void Start()
@@ -19,11 +19,12 @@ public class Goal : MonoBehaviour
     void Update()
     {
         countdown.text = ("" + timeLeft);
-        if (Score.CurrentScore == 500)
+       /* if (Score.CurrentScore == 500)
         {
-           
+
             StartCoroutine(WaitForSceneLoad());
-        }
+        }*/
+
     }
     IEnumerator LoseTime()
     {
@@ -42,7 +43,7 @@ public class Goal : MonoBehaviour
     }
     void OnTriggerEnter2D()
     {
-        Score.CurrentScore += 100;
+        Score.CurrentScore += 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }

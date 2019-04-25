@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class PlayerName : MonoBehaviour
 {
-    public InputField NameField;
+   
     static public string playerName;
-
-    void GetName()
+    public void GetInput(string player)
     {
-        playerName = NameField.text;
+        playerName = player;
+        Debug.Log(playerName);
     }
+
 }

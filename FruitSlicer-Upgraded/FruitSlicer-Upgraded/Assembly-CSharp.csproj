@@ -60,26 +60,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
-    <Compile Include="Assets\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Scripts\Blade.cs" />
-    <Compile Include="Assets\Scripts\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\DragMe.cs" />
-    <Compile Include="Assets\Scripts\DragPanel.cs" />
-    <Compile Include="Assets\Scripts\DropMe.cs" />
     <Compile Include="Assets\Scripts\Fruit.cs" />
     <Compile Include="Assets\Scripts\FruitSpawner.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\HighScores.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
-    <Compile Include="Assets\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Scripts\PlayerName.cs" />
     <Compile Include="Assets\Scripts\QuitonClick.cs" />
-    <Compile Include="Assets\Scripts\ResizePanel.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
-    <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
-    <Compile Include="Assets\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\Scripts\SetTime.cs" />
+    <Compile Include="Assets\Scripts\spawnSpeed.cs" />
     <None Include="Assets\scores.txt" />
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
