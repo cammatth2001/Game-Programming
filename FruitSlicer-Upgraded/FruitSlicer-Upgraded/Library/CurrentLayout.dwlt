@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1487
     height: 865
-  m_MinSize: {x: 679, y: 348}
-  m_MaxSize: {x: 12004, y: 8048}
+  m_MinSize: {x: 681, y: 348}
+  m_MaxSize: {x: 12006, y: 8048}
   vertical: 0
-  controlID: 5823
+  controlID: 43
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 348}
   m_MaxSize: {x: 8004, y: 8048}
   vertical: 1
-  controlID: 5769
+  controlID: 44
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 5770
+  controlID: 45
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,13 +212,13 @@ MonoBehaviour:
     height: 523
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 428
     height: 865
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a090000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ed2feff74fefeff361effff5c38ffff9442ffff405dffff58a6ffff9eb7ffffd4fbffff6c0d000064430000b443000032470000564a0000a64a00005e4e00009a5c0000ac6b0000
+      m_ExpandedIDs: 48f6ffff72f6ffff84f6ffff88faffffccfbffff72290000342a0000542a0000ec2a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 386.63446, y: 250.73529, z: -24.63871}
+    m_Target: {x: 432.86584, y: 194.86316, z: -24.31171}
     speed: 2
-    m_Value: {x: 386.63446, y: 250.73529, z: -24.63871}
+    m_Value: {x: 432.86584, y: 194.86316, z: -24.31171}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -470,11 +470,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: -1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 518.0765
+    m_Target: 485.81857
     speed: 2
-    m_Value: 518.0765
+    m_Value: 485.81857
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -550,20 +550,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\camma\Documents\GitHub\Game-Programming\FruitSlicer-Upgraded\FruitSlicer-Upgraded
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e4090000
-    m_LastClickedID: 2532
-    m_ExpandedIDs: 0000000094090000
+    m_SelectedIDs: 2e260000
+    m_LastClickedID: 9774
+    m_ExpandedIDs: 000000002e260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000094090000
+    m_ExpandedIDs: 000000002e260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,8 +616,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5a090000
-    m_LastClickedInstanceID: 2394
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f03000000631000000000000
     m_RenameOverlay:
