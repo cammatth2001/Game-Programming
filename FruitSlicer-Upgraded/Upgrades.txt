@@ -1,0 +1,13 @@
+Entry Page with Intructions
+Check Box/Toggle Button
+Drop down menu to go to Start/HighScores
+Slidder to control speed of fruit
+Game Play Choices
+Button to go to next screen
+Read Scores from file
+Input player name
+Play game button
+Fruit Sliced vs Fruit unharmed
+Button to play again or quit
+Write Current score to game
+Read Scores from file
